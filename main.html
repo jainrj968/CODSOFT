@@ -1,200 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width initial-scale=1">
-        <title>Portfolio</title>
-        <!---Css Link-->
-        <link rel="stylesheet" href="style/style.css">
-        <!--Icon Link-->
-        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-        <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-        <!--Remix-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
-        <!--Font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins&display=swap" rel="stylesheet">
-        <link rel=" stylesheet" href="style.css">
-        <link rel=" stylesheet" href=" script.js">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <a href="#" class="logo">SD</a>
-            <ul class="navlist">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="bx bx-menu" id="menu-icon"></div>
-        </header>
-        <section class="hero-img">
-            <div class="hero-text">
-                <h1>Rohit Jain</h1>
-                <h4>Web Developer</h4>
-                <h5>Btech (CSE)</h5>
-                <p>(Software Engineer intern)</p>
-            <a href="about"><i class="ri-information-line"></i>About</a>
-            <a href="#contact" class="ctaa"><i class="ri-contacts-line"></i>Contact</a>
+        <div class="simple"><h1>Calculator</h1></div>
+        
+        <div class="cal">
+            <input type="text" placeholder="0" id="inputBox">
+            <div>
+                <button class="operater">AC</button>
+                <button class="operater">DEL</button>
+                <button class="operater">%</button>
+                <button class="operater">/</button>
             </div>
-            <div class="hero-img">
-                <img src="" alt="image">
+            
+          
 
+            <div>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="operater">*</button>
             </div>
-        </section>
 
-        <div class="icons">
-            <a href="#"><i class="ri-linkedin-fill"></i></a>
-            <a href="#"><i class="ri-github-fill"></i></a>
-            <a href="#"><i class="ri-instagram-line"></i></a>
+            <div>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="operater">-</button>
+            </div>
+
+            <div>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="operater">+</button>
+            </div>
+
+            <div>
+                <button>0</button>
+                <button>00</button>
+                <button>.</button>
+                <button class="equaltobe">=</button>
+            </div>
         </div>
-        <div class="scroll-down">
-            <a href="#"><i class="ri-arrow-down-s-line"></i></a>
-        </div>
-
-        <section class="about" id="about">
-            <div class="max-width">
-                <h2 class="title" style="color: white;">About me</h2>
-                <div class="about-content">
-                    <div class="col-left">
-                        <img src="image.jpg" alt="" style="width: 300px;">
-                    </div>
-                    <div class="column right">
-                        <div class="text">I am Rohit Jain and I'm an <span>Engineer</span></div>
-                        <p style="color: white">Enthusiastic and motivated undergraduate software Engineer student seeking intership opportunity at a reutable and reowned oraganization .
-                        profficient in C, C++ , React.js, JavaScript, CSS</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="skills" id="skills" style="color:white">
-            <h2 class="title">Skills</h2>
-            <div class="skill-content">
-                <div  class="card">
-                    <div class="box">
-                        <i class="ri-html5-fill"></i>
-                        <div class="text">Front-End Web Developer</div>
-                        <p>Front-End design is the process of creating websites that are both visually appealing and functional. It involves the use of HTML, CSS, and JavaScript to create a website that looks good and is easy to use.</p>
-                    </div>
-                </div>
-                <div  class="card">
-                    <div class="box">
-                        <i class="ri-database-2-line"></i>
-                        <div class="text">Algorithms</div>
-                        <p>Algorithms are step-by-step procedures designed to solve specific problems and perform tasks efficiently in the realm of computer science and mathematics. .</p>
-                    </div>
-                </div>
-              
-                <div  class="card">
-                    <div class="box" style="color:white">
-                        <i class="ri-character-recognition-fill"></i>
-                        <div class="text">Object-oriented programming (OOP)</div>
-                        <p> (OOP) is a programming paradigm based on the concept of "objects", which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods..</p>
-                    </div>
-                </div>
-
-              
-                
-               
-        </section>
-
-        <!--Project Section-->
-        <section class="skills" id="project" style="color:white">
-            <h2 class="title">Projects</h2>
-            <div class="skill-content">
-                <div  class="card">
-                    <div class="box">
-                        <i class="ri-database-2-line"></i>
-                        <div class="text">To-Do List Web App</div>
-                        <p>Implemented real time updates and interactive user experiences allowing tasks to be added , edited and deleted without page reloads.</p>
-                    </div>
-                </div>
-               
-               
-               
-               
-                <div  class="card">
-                    <div class="box" style="color:white">
-                        <i class="ri-character-recognition-fill"></i>
-                        <div class="text">Music Player (C++) OOPS Demonstration</div>
-                        <p>Designed a Playlist class with dynamic memory allocation for effiecient playlist management </p>
-                    </div>
-                </div>
-
-
-                
-                
-                <div  class="card">
-                    <div class="box" style="color:white">
-                        <i class="ri-calculator-fill"></i>
-                        <div class="text">Calculator</div>
-                        <p>A calculator is a website that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations.</p>
-                    </div>
-                </div>
-
-                <div  class="card">
-                    <div class="box">
-                        <i class="ri-gamepad-line"></i>
-                        <div class="text">Simon Game</div>
-                        <p>The Simon game is the exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order.</p>
-                    </div>
-                </div>
-
-                <div  class="card">
-                    <div class="box">
-                        <i class="ri-html5-fill"></i>
-                        <div class="text">Login Page</div>
-                        <p>The login page allows a user to gain access to an application by entering their username and password or by authenticating using a social media login.</p>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
-        <section class="resume" id="resume">
-            <div class="contact-text">
-                <h2 style="color: white;">Resume</h2>
-                <a href="#">Download CV</a>
-            </div>
-        </section>
-        <section class="contact" id="contact">
-            
-            <div class="contact-text">
-                <h2 style="color: white;">Contact<span class="sp">  Me!</span></h2>
-                <h4 style="color: white;">If you want to contact me here the details</h4>
-            </div>
-            <div class="list">
-                <li><a href="#"><i class="ri-phone-line"></i>+91 8076565305</a></li>
-                <li><a href="#"><i class="ri-mail-fill"></i>jainrj968@gmail.com</a></li>
-                <li><a href="#"><i class="ri-map-pin-2-line"></i>A-25, Kewal Park Extn.,Azadpur,Delhi,India</a></li>
-            </div>
-            <div class="contact-form">
-                <form action="">
-                    <input type="name" placeholder="Your Name " required><br><br>
-                    <input type="email" placeholder="Your Email Address" required><br><br>
-                    <input type="" placeholder="Your Mobile Number" required><br><br>
-                    <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea><br><br>
-                    <input type="submit" value="Send Message" class="submit" required><br><br>
-                </form>
-            </div>
-            
-            
-        </section>
-        <section>
-            <footer id="footer">
-                <div class="container-fluid">
-                    <!-- social media icons -->
- <h5 style="color: white; justify-content:center; text-align:center; font-size: 20px;">copyright  <i class="ri-copyright-line"> ROHIT</i></h5>
-                        
-                    </div>
-                
-              </footer>
-        </section>
-        <!--custom js link-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="js/script.js"></script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
